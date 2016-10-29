@@ -61,3 +61,4 @@ Follow the instructions located on [the KRPC C++ documentation page](https://krp
 
 # Install OpenCV
 
+Follow the [instructions for installing OpenCV](http://docs.opencv.org/3.0-last-rst/doc/tutorials/introduction/linux_install/linux_install.html)
