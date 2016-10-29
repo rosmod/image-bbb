@@ -37,7 +37,7 @@ Download and unpack the [latest debian image.](https://beagleboard.org/latest-im
 
 Plug in an SD card with at least 8 GB, run win32DiskImager, and point it towards the image file and the sd card. Click `Write`
 
-# Basic BBB and File System setup
+# Basic BBB setup
 
 Insert the SD card into the BBB
 
@@ -45,14 +45,19 @@ Press the `Boot` button on the BBB (the one next to the SD card slot) while powe
 
 The rest of this readme is run **From the BBB itself**. SSH into it using the default user. Default ip if connected through usb is `192.168.7.2`
 
-Run `sudo apt-get update` and `sudo apt-get upgrade`
-
-If desired, `sudo apt-get install emacs`
-
 ## Expand the file system
 
 Follow the instructions [found here](http://elinux.org/Beagleboard:Expanding_File_System_Partition_On_A_microSD) for expanding the filesystem. **Be sure to expand the file system to 7GB instead of the entire SD which is the default value**
 
+## Updating the image and installing emacs
+
+Run `sudo apt-get update` and `sudo apt-get upgrade`
+
+If desired, `sudo apt-get install emacs`
+
 # Install KRPC and Protobuff
 
 Follow the instructions located on [the KRPC C++ documentation page](https://krpc.github.io/krpc/cpp/client.html#installing-the-library) for installing KRPC and its dependencies (ASIO and Protobuff)
+
+# Install OpenCV
+
