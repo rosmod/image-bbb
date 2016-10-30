@@ -59,8 +59,9 @@ If desired, `sudo apt-get install emacs`
 
 Follow the instructions located on [the KRPC C++ documentation page](https://krpc.github.io/krpc/cpp/client.html#installing-the-library) for installing KRPC and its dependencies (ASIO and Protobuff)
 
-A version of ASIO is located in this repo. Simply navigate to it's directory and run `./configure --without-boost`
-A version of Protobuff is located in this repo as well.
+Asio can be installed by running `apt-get install libasio-dev`
+
+Follow the instructions above for instaling protobuff
 
 # Install OpenCV
 
