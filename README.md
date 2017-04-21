@@ -53,6 +53,12 @@ Follow the instructions [found here](http://elinux.org/Beagleboard:Expanding_Fil
 
 Run `sudo apt-get update` and `sudo apt-get upgrade`
 
+## Remove unused programs
+
+`sudo apt-get remove apache2 avahi-daemon nodejs bonescript`
+
+## Install optional programs
+
 If desired, `sudo apt-get install emacs`
 
 # Install KRPC and Protobuff
