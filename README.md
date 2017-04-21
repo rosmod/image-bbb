@@ -57,6 +57,25 @@ Run `sudo apt-get update` and `sudo apt-get upgrade`
 
 `sudo apt-get remove apache2 avahi-daemon nodejs bonescript`
 
+## Setup passwordless ssh login
+
+For every user you want to enable passwordless login
+
+`cat ~/.ssh/public_key >> ~/.ssh/authorized_keys`
+
+If a public key needs to be generated from a private key
+
+`ssh-keygen -y -f ~/.ssh/private_key >> ~/.ssh/public_key`
+
+Disable logging in by password
+
+`sudo emacs /etc/ssh/sshd_config`
+```
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+UsePAM no
+```
+
 ## Install optional programs
 
 If desired, `sudo apt-get install emacs`
