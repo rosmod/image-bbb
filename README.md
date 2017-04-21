@@ -76,6 +76,12 @@ PasswordAuthentication no
 UsePAM no
 ```
 
+## Setup Fail2Ban
+
+`sudo apt-get install fail2ban`
+
+Default settings are fine
+
 ## Install optional programs
 
 If desired, `sudo apt-get install emacs`
