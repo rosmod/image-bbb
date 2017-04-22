@@ -1,7 +1,7 @@
 # image-bbb
 Instructions for making a new image for the BBB that is compatible with ROSMOD and contains useful programs
 
-# Order of Operations
+# Operations
 
 Install the latest Debian Image and ensure it has an updated linux kernel
 
@@ -85,6 +85,10 @@ Default settings are fine
 ## Install optional programs
 
 If desired, `sudo apt-get install emacs`
+
+# Install ROSMOD
+
+Follow the instruction located [in the rosmod-comm repo](https://github.com/rosmod/rosmod-comm)
 
 # Install KRPC and Protobuff
 
