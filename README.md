@@ -59,7 +59,7 @@ Run `sudo apt-get update` and `sudo apt-get upgrade`
 
 ## Setup passwordless ssh login
 
-For every user you want to enable passwordless login
+For every user
 
 `cat ~/.ssh/public_key >> ~/.ssh/authorized_keys`
 
